@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <title>Jogo da Velha</title>
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header id="gameTitle">
+      <h1>JOGO DA VELHA | TIC-TAC-TOE</h1>
+    </header>
+    <p id="gamePlayers">
+      <input type="text" class="playerName" id="playerOneName" placeholder="Nome 1º jogador" autofocus>
+      <br>
+      <input type="text" class="playerName" id="secondPlayerName" placeholder="Nome 2º jogador">
+      <br>
+      <br>
+      <input class="sendDisabled" type="submit" value="PRONTO" id="sendBtn" disabled>
+    </p>
+  
+    <table id="gameMain">
+      <tr>
+        <td><button id="gameBtn-1" class="gameBtn" disabled>&nbsp;&nbsp;</button></td>
+        <td><button id="gameBtn-2" class="gameBtn" disabled>&nbsp;&nbsp;</button></td>
+        <td><button id="gameBtn-3" class="gameBtn" disabled>&nbsp;&nbsp;</button></td>
+      </tr>
+      <tr>
+        <td><button id="gameBtn-4" class="gameBtn" disabled>&nbsp;&nbsp;</button></td>
+        <td><button id="gameBtn-5" class="gameBtn" disabled>&nbsp;&nbsp;</button></td>
+        <td><button id="gameBtn-6" class="gameBtn" disabled>&nbsp;&nbsp;</button></td>
+      </tr>
+      <tr>
+        <td><button id="gameBtn-7" class="gameBtn" disabled>&nbsp;&nbsp;</button></td>
+        <td><button id="gameBtn-8" class="gameBtn" disabled>&nbsp;&nbsp;</button></td>
+        <td><button id="gameBtn-9" class="gameBtn" disabled>&nbsp;&nbsp;</button></td>
+      </tr>
+    </table>
+    <P>
+      <input class="sendDisabled" type="submit" id="refresh" value="Reiniciar" disabled></button>
+    </P>
+  </main>
+</body>
+</html>

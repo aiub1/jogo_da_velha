@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  
+}
+
+:root {
+  --bg-color: #212529;
+  --border-color: #666;
+  --font-color: #f1f5f9;
+  --primary-color: #4dff91;
+  --error-color: #ff0043;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  font-family: "Ubuntu", sans-serif;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 0 1.5rem 2.5rem;
+  position: relative;
+}
+
+header {
+  padding: 2rem;
+}
+
+#gameMain {
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+button {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  border: 2px solid var(--border-color);
+  border-radius: .25rem;
+  font-weight: 700;
+  padding: .5rem 1rem;
+  transition: .15s;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type=submit] {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  border: 2px solid var(--border-color);
+  border-radius: .25rem;
+  font-weight: 700;
+  padding: .5rem 1rem;
+  transition: .15s;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type=text]{
+  background-color: var(--bg-color);
+  border: 2px solid var(--border-color);
+  border-radius: .5rem;
+  color: var(--font-color);
+  display: block;
+  font-size: 1.75rem;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 100%;
+}
+
+.sendEnabled:hover {
+  border-color: var(--primary-color);
+}
+
+.sendDisabled:hover {
+  border-color: var(--error-color);
+}
