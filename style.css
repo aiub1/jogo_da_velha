@@ -4,6 +4,17 @@
   
 }
 
+a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+footer {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 :root {
   --bg-color: #212529;
   --border-color: #666;
