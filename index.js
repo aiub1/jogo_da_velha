@@ -12,11 +12,11 @@ document.querySelectorAll(".playerName").forEach(function (inputPlayerName) {
     if (playerOne.value != '' && secondPlayer.value != '') {
       sendBtn.removeAttribute('disabled')
       sendBtn.className = 'sendEnabled'
-      verifySendBtn = true
+      // verifySendBtn = true
     }else{
       sendBtn.setAttribute('disabled', '')
       sendBtn.className = 'sendDisabled'
-      verifySendBtn = false
+      // verifySendBtn = false
     }
 
   })
@@ -159,9 +159,7 @@ function verifyPlayerWinner() {
     administerPlayerTurnTitle(0)
     disabledAllBtn()
     colorBtnWinner(8)
-  }else if (gameBtn1 !='  ' && gameBtn2 !='  ' && gameBtn3 !='  '
-         && gameBtn4 !='  ' && gameBtn5 !='  ' && gameBtn6 !='  '
-         && gameBtn7 !='  ' && gameBtn8 !='  ' && gameBtn9 !='  '){
+  }else if (countPressBtn == 9){
     announcePlayerWinner('')
     administerPlayerTurnTitle(0)
   }

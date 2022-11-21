@@ -80,6 +80,7 @@ input[type=text]{
 
 .sendEnabled:hover {
   border-color: var(--primary-color);
+  cursor: pointer;
 }
 
 .sendDisabled:hover {
