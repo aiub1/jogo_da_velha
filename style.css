@@ -37,6 +37,11 @@ header {
 
 }
 
+#playerWinner {
+  margin-top: 1rem;
+  text-align: center;
+}
+
 button {
   background-color: var(--bg-color);
   color: var(--font-color);
